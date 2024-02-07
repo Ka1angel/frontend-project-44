@@ -1,0 +1,50 @@
+{
+  "name": "@hexlet/code",
+  "version": "0.0.3",
+  "description": "Node.js boilerplate package",
+  "bin": {
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js",
+    "brain-calc": "bin/brain-calc.js",
+    "brain-gcd": "bin/brain-gcd.js",
+    "brain-progression": "bin/brain-progression.js",
+    "brain-prime": "bin/brain-prime.js"
+  },
+  "simple-git-hooks": {
+    "pre-push": "make lint"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "test": "npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hexlet-boilerplates/nodejs-package.git"
+  },
+  "author": "Kirill Mokevnin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hexlet-boilerplates/nodejs-package/issues"
+  },
+  "type": "module",
+  "homepage": "https://github.com/hexlet-boilerplates/nodejs-package#readme",
+  "dependencies": {
+    "debug": "^4.3.4",
+    "gradle": "^1.2.4",
+    "lodash": "^4.17.21",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.6.0",
+    "eslint": "^8.54.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-jest": "^27.2.2",
+    "jest": "^29.6.0",
+    "jest-cli": "^29.6.0",
+    "npm-check-updates": "^16.10.11",
+    "simple-git-hooks": "^2.8.1"
+  }
+}
