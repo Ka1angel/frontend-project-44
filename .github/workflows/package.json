@@ -46,6 +46,5 @@
     "jest-cli": "^29.6.0",
     "npm-check-updates": "^16.10.11",
     "simple-git-hooks": "^2.8.1"
-  },
-  "main": "index.js"
+  }
 }
