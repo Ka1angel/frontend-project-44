@@ -28,4 +28,4 @@ const generateRoundCalc = () => {
 
 export default function startBrainCalc() {
   playGame(rules, generateRoundCalc);
-};
+}

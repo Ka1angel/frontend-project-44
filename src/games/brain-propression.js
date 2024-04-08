@@ -26,4 +26,4 @@ const rules = 'What number is missing in the progression?';
 
 export default function startBrainProgression() {
   playGame(rules, generateRound);
-};
+}

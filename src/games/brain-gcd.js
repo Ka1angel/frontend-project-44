@@ -19,4 +19,4 @@ const rules = 'Find the greatest common divisor of given numbers.';
 
 export default function startBrainGCD() {
   playGame(rules, generateRound);
-};
+}

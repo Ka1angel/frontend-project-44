@@ -13,4 +13,4 @@ const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 export default function startBrainEven() {
   playGame(rules, generateRound);
-};
+}
