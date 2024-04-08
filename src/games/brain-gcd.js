@@ -14,7 +14,7 @@ const calculateGCD = (num1, num2) => {
     return [question, correctAnswer];
   };
   
-const rules = 'Find the greatest common divisior between the two numbers:';
+const rules = 'Find the greatest common divisor of given numbers.';
 
   export const startBrainGCD = () => {
     playGame(rules, generateRound);
