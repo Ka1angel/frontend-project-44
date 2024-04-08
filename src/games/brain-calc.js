@@ -14,7 +14,6 @@ export const getCorrectAnswer = (num1, sign, num2) => {
   }
 };
 
-
 const rules = 'What is the result of the expression?';
 
 const generateRoundCalc = () => {
