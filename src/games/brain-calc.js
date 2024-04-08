@@ -26,6 +26,6 @@ const generateRoundCalc = () => {
   return [question, correctAnswer];
 };
 
-export const startBrainCalc = () => {
+export default function startBrainCalc() {
   playGame(rules, generateRoundCalc);
 };
