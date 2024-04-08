@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import { playGame, getRandomNumber } from '../utils.js';
+
 const calculateGCD = (num1, num2) => {
   if (num2 > num1) return calculateGCD(num2, num1);
   if (!num2) return num1;
@@ -16,6 +17,6 @@ const generateRound = () => {
 
 const rules = 'Find the greatest common divisor of given numbers.';
 
-export const startBrainGCD = () => {
+export default function startBrainGCD() {
   playGame(rules, generateRound);
 };

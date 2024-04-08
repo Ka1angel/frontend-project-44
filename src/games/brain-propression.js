@@ -24,6 +24,6 @@ const generateRound = () => {
 
 const rules = 'What number is missing in the progression?';
 
-export const startBrainProgression = () => {
+export default function startBrainProgression() {
   playGame(rules, generateRound);
 };

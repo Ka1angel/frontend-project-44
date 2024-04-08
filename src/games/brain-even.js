@@ -11,6 +11,6 @@ const generateRound = () => {
 
 const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-export const startBrainEven = () => {
+export default function startBrainEven() {
   playGame(rules, generateRound);
 };
